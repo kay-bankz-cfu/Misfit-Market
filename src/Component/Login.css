@@ -1,0 +1,62 @@
+.login{
+    background-image: linear-gradient(rgba(69,
+        73,
+        52,
+        0.8), rgba(34,
+            34,
+            34,
+            0.4)),url(../../public/15image.jpg);
+            height: 611px;
+            /* backdrop-filter: blur(70px); */
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            line-height: 30px;
+            text-align: center;
+            padding: 20px;
+            color: white;
+}
+
+.login h1{
+    font-size: 40px;
+    margin: 0px 0px 40px 0px;
+}
+.login input{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    width: 25%;
+}
+.login input:focus{
+    box-shadow: 0px 0px 20px bisque;
+}
+#remember{
+    width: fit-content;
+}
+.login button{
+    padding: 10px;
+    width: 24%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px;
+    border: 1px solid green;
+    outline: none;
+}
+.login Link{
+    font-size: 20px;
+    text-decoration: none;
+    /* margin-top: 40px; */
+}
+.login Link:hover{
+    border-bottom: 1px solid;
+}
+.error{
+    color: red;
+}

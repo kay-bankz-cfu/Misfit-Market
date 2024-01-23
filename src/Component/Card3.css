@@ -1,0 +1,19 @@
+.card3{
+    width: 95%;
+
+}
+.card3 img{
+    height: 300px;
+}
+.card3 a{
+    /* text-decoration: none; */
+    font-size: 70px;
+    color: black;
+    font-weight: 900;
+}
+/* .card3 a:hover{
+    border-bottom: 1px solid;
+} */
+.card3:hover{
+    cursor: pointer;
+}

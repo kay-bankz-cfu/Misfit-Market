@@ -1,0 +1,25 @@
+.check {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 110px;
+    margin-top: -5px;
+    padding-top: 20px;
+    align-items: center;
+    padding: 40px;
+    /* height: 370px; */
+}
+.check img{
+    /* padding: 15px; */
+}
+.title {
+    padding: 20px 70px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text {
+    padding: 20px 70px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,16 @@
+.about button {
+    margin: 0px 20px 0px 20px;
+    /* background: linear-gradient(to right, #caa45e, #d83a3a); */
+    background: linear-gradient(to left, #d3992ccb, #fcfc40);
+    font-size: 20px;
+    font-weight: 700;
+    /* width: 30%; */
+    border-radius: 7px;
+    padding: 10px 30px 10px 30px;
+}
+.about button:hover{
+    /* background-color: rgba(85, 107, 47, 0.671); */
+    color: rgba(243, 243, 243, 0.793);
+    border-color: rgba(232, 232, 232, 0.793);
+}
+

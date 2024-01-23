@@ -1,0 +1,64 @@
+.signin{
+    background-image: linear-gradient( rgba(69, 73, 52, 0.8), rgba(34, 34, 34, 0.4)), url('../../public/17image.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 642px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* line-height: 50px; */
+    /* background-color: rgba(66, 207, 66, 0.815); */
+    padding: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+    /* backdrop-filter: blur(30px); */
+}
+
+.signin h1{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.932);
+}
+.signin span{
+    font-size: 20px;
+    color: white;
+}
+.signin button{
+    padding: 10px;
+    width: 24%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 10px;
+    border: 1px solid green;
+    outline: none;
+}
+.already Link{
+   color: rgb(87, 87, 221);
+   font-size: 20px;
+   text-decoration: none;
+}
+.already Link:hover{
+    border-bottom: 1px solid;
+}
+.accept Link{
+    text-decoration: none;
+}
+.accept Link:hover{
+    border-bottom: 1px solid;
+}
+#signin-container input{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    width: 25%;
+}
+#signin input:focus{
+    box-shadow: 0px 0px 20px bisque;
+}
+
+.error{
+    color: red;
+}

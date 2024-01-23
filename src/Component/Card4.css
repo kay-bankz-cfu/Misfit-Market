@@ -1,0 +1,14 @@
+.image20{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.image20 img{
+    border-radius: 10px;
+    transition: 0.9s ease-out;
+}
+.image20 img:hover{
+    transform: scale(1.07);
+    border-bottom: 0px 0px 10px gray;
+}

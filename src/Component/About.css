@@ -1,0 +1,15 @@
+.about-us{
+    font-size: 30px;
+    font-weight: 900;
+    background-color: gray;
+    height: 200px;
+}
+.about-us h1{
+    margin: auto;
+    border-bottom: 5px solid goldenrod;
+    width: fit-content;
+}
+.small{
+    width: 70%;
+    margin: auto;font-size: 18px;
+}

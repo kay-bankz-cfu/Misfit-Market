@@ -1,0 +1,47 @@
+.contact-nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* align-items: center; */
+    padding: 20px;
+}
+.contact-nav a{
+    text-decoration: none;
+    color: black;
+}
+.help a{
+    margin: 20px;
+}
+.help a:hover{
+    border-bottom: 1px solid;
+}
+.contact-background{
+    background-color: bisque;
+}
+.contact-content div{
+    background-color: white;
+    margin: 0px 80px;
+    height: 270px;
+    /* text-align: center; */
+   padding: 70px;
+}
+.content{
+    display: flex;
+    gap: 250px;
+   justify-content: space-around;
+}
+.content span{
+    /* background-color: red; */
+    /* align-items: center; */
+    width: 100%;
+}
+.content div{
+    width: 100%;
+    margin: auto;    
+    /* background-color: blue; */
+}
+.contact-content div form input{
+    width: 100%;
+    padding: 12px;
+    margin: 15px;
+}

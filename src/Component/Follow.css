@@ -1,0 +1,111 @@
+.follow {
+    background-color: bisque;
+    padding: 50px;
+}
+
+.follow h3 {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.follow h3 a {
+    color: green;
+    text-decoration: none;
+}
+.follow h3 a:hover{
+    border-bottom: 2px solid;
+}
+
+.subcribe {
+    width: 100%;
+}
+
+.subcribe h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subcribe small {
+    font-size: larger;
+}
+
+.subcribe input {
+    padding: 15px;
+    margin: 15px 0px 10px 0px;
+    width: 60%;
+    font-size: 15px;
+}
+
+.subcribe button {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 60%;
+    background: linear-gradient(to left, #d3992ccb, #fcfc40);
+    /* background-color: rgb(190, 140, 90); */
+}
+
+.by {
+    width: 60%;
+    font-size: 20px;
+}
+
+.by a {
+    color: green;
+    text-decoration: none;
+}
+.by a:hover{
+    border-bottom: 1px solid;
+}
+
+.last-container {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    border-bottom: 1px solid;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 60px;
+}
+.facebook{
+    margin: 35px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+.face{
+    color: rgba(49, 137, 67, 0.678);
+}
+.insta{
+    color: rgba(230, 204, 37, 0.901);
+}
+.you{
+    color: orangered;
+}
+.sign div h4 {
+    line-height: 40px;
+}
+
+.terms p a{
+    text-decoration: none;
+    color: rgba(37, 147, 59, 0.866);
+}
+.terms p a:hover{
+    border-bottom: 1px solid;
+}
